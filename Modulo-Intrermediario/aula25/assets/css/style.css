@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 3.125rem auto;
+    max-width: 700px;
+}
+
+form input, form label{
+    display: block;
+    width: 50%;
+    margin-bottom: 0.625rem;
+}
+
+form input:focus {
+    outline: 1px solid;
+    outline-color: #007bff;
+}
+
+.container .result {
+    margin-block-start: 0.625rem;
+    width: 50%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.container .error-result{
+    background-color: red;
+}
+
+.container .sucess-result{
+    background-color:lightgreen;
+}

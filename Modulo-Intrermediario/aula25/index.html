@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modleo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-grid.min.css">
+</head>
+<body>
+    <section class="container"> 
+        <h1>Tabela IMC</h1>
+        <table class="table table-sm table-borderless">
+            <thead>
+                <tr>
+                    <th scope="col">IMC</th>
+                    <th scope="col">Resultado</th>               
+                </tr>
+            </thead>
+            <tbody>
+                <tr>              
+                    <td>Menos do que 18,5</td>
+                    <td>Abaixo do peso</td>               
+                </tr>
+                <tr>              
+                    <td>Entre 18,5 á 24,9</td>
+                    <td>Peso normal</td>               
+                </tr>
+                <tr>              
+                    <td>Entre 25 á 29,9</td>
+                    <td>Sobrepeso</td>               
+                </tr>
+                <tr>              
+                    <td>Entre 30 á 34,9</td>
+                    <td>Obesidade grau 1</td>               
+                </tr>
+                <tr>              
+                    <td>Entre 35 á 39,9</td>
+                    <td>Obesidade grau 2</td>               
+                </tr>
+                <tr>              
+                    <td>Mais do que 40</td>
+                    <td>Obesidade grau 3</td>               
+                </tr>
+            </tbody>
+        </table>
+
+        <form id="form" action="/" method="get">
+            <h2>Calcular seu IMC </h2>
+            <div>
+                <label for="peso">Seu peso em KG: </label>
+                <input type="text" id="peso" name="peso">
+            </div>           
+            <div>
+                <label for="altura">Sua altura em metros: </label>
+                <input type="text" id="altura" name="altura">
+            </div>           
+            <button type="submit" class="btn btn-outline-primary">Enviar</button>         
+        </form>
+
+        <div class="result" id="result"></div>
+    </section>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/jquery-3.5.1.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+</html>
