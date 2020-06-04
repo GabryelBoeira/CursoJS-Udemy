@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    margin: 50px auto;
+    max-width: 700px;
+}
+
+form input, form label{
+    display: block;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+form input:focus {
+    outline: 1px solid;
+    outline-color: #007bff;
+}
+
+
+.h1-hora{
+    margin-block-start: 2rem;
+    text-align: center;
+    width: 60%;
+    font-size: 2rem;
+    background-color: wheat;
+}
