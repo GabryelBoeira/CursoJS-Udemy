@@ -12,7 +12,7 @@ function exibirData(){
     }
 
     function getDiaSemana(numDiaSemana){
-        const diasSemana = ['Domingo','Segunda-Feira','Terça-Feira','Quarta-Feira','Quinta-Feira','Sexta-Feira', 'Sabado']
+        const diasSemana = ['Domingo','Segunda-Feira','Terça-Feira','Quarta-Feira','Quinta-Feira','Sexta-Feira', 'Sabado'];
         return diasSemana[numDiaSemana];
     } 
 
