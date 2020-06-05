@@ -1,4 +1,4 @@
-// atribuição de desestruturação
+// atribuição de desestruturação em array
 const numeros = [154, 251, 3245, 40, 5558, 556, 557, 588, 589];
 // operção com (... rest) nesse monemto de execução 
 const [um, dois, tres, ... resto] = numeros
