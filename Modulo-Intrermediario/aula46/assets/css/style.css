@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(248, 237, 218);
+}
+
+.container{
+    text-align: center;
+    background-color: white;
+    margin: 3.125rem auto;
+    padding: 1.25rem;
+}
+
+.relogio{
+    font-size: 3rem;
+}
+
+.pausado{
+    color: red;
+}

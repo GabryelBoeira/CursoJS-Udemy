@@ -15,4 +15,6 @@ const timer = setInterval(function () {
 // Finalizando o intervalo de tempo 
 setTimeout(function () {
     clearInterval(timer);
-}, 5000);
+});
+
+
