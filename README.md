@@ -11,4 +11,8 @@ aula03 - aula20
 
 ## Modulo-Intermediário 
 Operadores Lógicos, comparações, lações de repetição, atribuições, termarios e aprofundamento dos items do modulo básico.
-aula25
+aula25 - aula47
+
+## Modulo-Avançado sobre Funções  
+Funções recursivas, Funções construtoras, Funções de callback, Funções de fábrica, funções geradoras, Funções imediatas (IIFE) e outros assuntos relacionados a funções.
+aula48
