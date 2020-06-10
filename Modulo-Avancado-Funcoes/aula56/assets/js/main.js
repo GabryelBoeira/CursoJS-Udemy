@@ -1,3 +1,5 @@
+//Calculado criada com base nas factory functions
+
 function criaCalculadora(){
     
     return{
