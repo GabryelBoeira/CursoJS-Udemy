@@ -15,4 +15,8 @@ aula25 - aula47
 
 ## Modulo-Avançado sobre Funções  
 Funções recursivas, Funções construtoras, Funções de callback, Funções de fábrica, funções geradoras, Funções imediatas (IIFE) e outros assuntos relacionados a funções.
-aula48
+aula48 - aula59
+
+## Modulo-Avançado sobre Arrays  
+Funções recursivas, Funções construtoras, Funções de callback, Funções de fábrica, funções geradoras, Funções imediatas (IIFE) e outros assuntos relacionados a funções.
+aula59
