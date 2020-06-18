@@ -19,4 +19,8 @@ aula48 - aula59
 
 ## Modulo-Avançado sobre Arrays  
 Funções recursivas, Funções construtoras, Funções de callback, Funções de fábrica, funções geradoras, Funções imediatas (IIFE) e outros assuntos relacionados a funções.
-aula59
+aula59 - aula66
+
+## Modulo-Avançado sobre Objetos e prototypes  
+Revisão sobre objetos, getters e setters, prototypes, manipulação de prototypes, herança, polimorfismo, factory functions com prototypes
+aula67
