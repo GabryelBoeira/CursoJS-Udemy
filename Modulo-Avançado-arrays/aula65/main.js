@@ -11,4 +11,4 @@ const totalDobroPares = numeros
                         .map((valor) => valor * 2)
                         .reduce((acumulador, valor) => acumulador += valor);
 
-console.log(totalDobroPares)
+console.log(totalDobroPares);
