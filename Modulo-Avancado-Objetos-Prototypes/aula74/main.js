@@ -1,5 +1,5 @@
 // Validação de CPF 
-// Solução pessoal
+// Solução 1 
 
 function validacaoCPF(cpf){
     let cpfLimpo = cpf.replace(/\D+/g, ''); 
@@ -46,5 +46,4 @@ function validacaoCPF(cpf){
         return 'Erro ao tentar realizar a validação do cpf';
     }   
 }
-// gerador de cpf utilizado para gerar cpf valido : https://www.4devs.com.br/gerador_de_cpf
 console.log(validacaoCPF('427.984.130-60'));
