@@ -23,4 +23,8 @@ aula59 - aula66
 
 ## Modulo-Avançado sobre Objetos e prototypes  
 Revisão sobre objetos, getters e setters, prototypes, manipulação de prototypes, herança, polimorfismo, factory functions com prototypes
-aula67
+aula67 - aula77
+
+## Modulo-Avançado sobre Classes
+Criando classes, getters e setters, herança, classes de instâncias e estáticos.
+aula78
