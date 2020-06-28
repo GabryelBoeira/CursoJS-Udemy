@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-grid.min.css">
+</head>
+<body class="body">
+    <section class="container"> 
+        <h1>Formulario de Cadastro</h1>
+        <ul>
+            <li> Nenhum campo pode estar vázio.</li>
+            <li> Usuário só poderá conter letras e/ou números. </li>
+            <li> Usuário deverá ter entre 3 e 12 caracteres. </li>
+            <li> Senha precisa ter entre 6 e 12 caracteres.</li>
+        </ul>
+        <form class="form" action="" method="POST">
+            <label for="">Nome </label>
+            <input type="text" class="nome form-Field" name="nome">   
+            <label for="">SobreNome </label>
+            <input type="text" class="sobreNome form-Field" name="sobreNome">  
+            <label for="">CPF </label>
+            <input type="text" class="cpf form-Field" name="cpf">  
+            <label for="">Usuário </label>
+            <input type="text" class="usuario form-Field" name="usuario">  
+            <label for="">Senha </label>
+            <input type="password" class="senha form-Field" name="senha">  
+            <label for="">Repetir Senha </label>
+            <input type="password" class="repetir-senha form-Field" name="repetir-senha">  
+            <button type="submit" class="btn btn-outline-primary">Enviar</button>         
+        </form>
+    </section>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/validaCPF.js"></script>
+    <script src="./assets/js/jquery-3.5.1.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+</html>

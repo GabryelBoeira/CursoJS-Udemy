@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(248, 237, 218);
+}
+
+.container{
+    background-color: white;
+    margin: 3.125rem auto;
+    padding: 1.25rem;
+}
+
+form input, form label{
+    display: block;
+    width: 50%;
+    margin-bottom: 0.625rem;
+}
+
+form input:focus {
+    outline: 0.0625rem solid;
+    outline-color: #007bff;
+}
+
+.error-text {
+    color: red;
+    font-size: 0.75rem;
+}
