@@ -24,7 +24,7 @@ class Carro {
     }
 
     freiar() {
-        if(this.velocidade <= 0) return;
+        if(this[_velocidade] <= 0) return;
         this[_velocidade]--;
     }
 }
