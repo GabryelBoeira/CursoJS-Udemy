@@ -30,5 +30,5 @@ Criando classes, getters e setters, herança, classes de instâncias e estático
 aula78 - aula83
 
 ## Modulo sobre assíncrono
-Promises, Async/Await, Fecht API(GET), Fecht API e Axions(JSON), XMLHttpRequest(GET) + Promises
-aula84
+Promises, Async/Await, Fecht API e Axions(JSON), XMLHttpRequest(GET) + Promises
+aula84 - aula89
