@@ -9,8 +9,9 @@ class ValidaCpf {
     }
 
     valido(){
-        if (this.cpfLimpo.length !== 11 || this.cpfLimpo.match(/[a-zA-Z]/g) !== null || this.isSequencia()) return false;
+        //if (this.cpfLimpo.length !== 11 || this.cpfLimpo.match(/[a-zA-Z]/g) !== null || this.isSequencia()) return false;
                 
+        console.log(this.cpfLimpo);
         return ValidaCpf.garaNovoCpf(this.cpfLimpo) === this.cpfLimpo;
     }
 
@@ -38,3 +39,9 @@ class ValidaCpf {
         return this.cpfLimpo[0].repeat(this.cpfLimpo.length) === this.cpfLimpo;
     }
 }
+
+const valid = new ValidaCpf();
+
+valid.cpfEnviado = '123.456.789';
+valid.valido();
+

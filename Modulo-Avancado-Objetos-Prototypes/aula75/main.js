@@ -10,13 +10,13 @@ function ValidaCPF(cpfEnviado) {
 }
 
 ValidaCPF.prototype.valida = function() {
-    if (this.cpfLimpo.length !== 11 || this.isSequencia()) return false;
+    //if (this.cpfLimpo.length !== 11 || this.isSequencia()) return false;
     
-    const cpfParcial = this.cpfLimpo.slice(0, -2);
+    const cpfParcial = this.cpfLimpo;
     const digito1 = this.criaDigito(cpfParcial);
     const digito2 = this.criaDigito(cpfParcial + digito1);
-    
     const cpfValidado = cpfParcial + digito1 + digito2;
+    console.log(cpfValidado);
     return cpfValidado === this.cpfLimpo;
 } 
 
@@ -29,13 +29,14 @@ ValidaCPF.prototype.criaDigito = function(cpfParcial) {
     let regressivo = cpfParcial.length + 1;
     const total = cpfArray.reduce((acumulador, valor) =>{
         acumulador += Number(valor) * regressivo;
+        console.log(Number(valor) * regressivo);
         regressivo--;
         return acumulador; 
     }, 0);
-
+    console.log(total);
     const digito = 11 - (total % 11);
     return digito <= 9 ? digito : '0';
 }
 
-const cpf = new ValidaCPF('427.984.130-60');
+const cpf = new ValidaCPF('123.456.789');
 console.log(cpf.valida());
