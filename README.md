@@ -32,3 +32,7 @@ aula78 - aula83
 ## Modulo sobre assíncrono
 Promises, Async/Await, Fecht API e Axions(JSON), XMLHttpRequest(GET) + Promises
 aula84 - aula89
+
+## Modulo JavaScript Tooling e ES6 Modules
+Inicialização Babel e "can i use", WebPack(Boilerplate), Core-js e regeneration-runtime, ES6 Modules
+aula90 -
